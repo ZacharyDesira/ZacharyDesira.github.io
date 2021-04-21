@@ -1,0 +1,131 @@
+:root{
+    --main-background-color:#203E6F;
+    --white-text: #FFFFFF;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Lato', serif;
+}
+
+h1, h3{
+    font-weight: 500;
+}
+
+h1{
+    margin:0;
+}
+
+header{
+    background-color: var(--main-background-color);
+    color: var(--white-text);
+    text-align: center;
+    padding:2%;
+}
+
+.about{
+    padding: 5% 0;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    width:75%;
+}
+
+.about-image{
+    object-fit: contain;
+    width:300px;
+    border-radius: 50%;
+}
+
+.about-text{
+    padding:0 5%;
+}
+
+.about-text h1{
+    text-align: center;
+}
+
+.about-text p{
+    text-align: justify;
+}
+
+footer{
+    background-color: var(--main-background-color);
+    color: var(--white-text);
+    padding:2%;
+    display: flex;
+}
+
+.footer-container{
+    width:75%;
+    margin:auto;
+    display: flex;
+}
+
+footer div > h1{
+    font-size: 1.5em;
+}
+
+.details{
+    width:40%;
+}
+
+.links{
+    display:flex;
+    list-style: none;
+    padding:10px;
+}
+
+.links > li{
+    padding:3%;
+    border: 2px solid var(--white-text);
+    border-radius: 10%;
+    margin:1%;
+}
+
+.links > li a{
+    text-decoration: none;
+    color: var(--white-text);
+}
+
+.contact > li{
+    list-style:none;
+}
+
+.contact-icon{
+    padding-right:2%;
+}
+
+.work-experience{
+    width:60%;
+}
+
+.work-experience--header{
+    text-align: center;
+}
+
+.work-experience--container{
+    display:flex;
+}
+
+.work-experience--date{
+    padding-right: 5%;
+    width:20%
+}
+
+.work-experience--job-description{
+    width:80%;
+}
+
+.work-experience--job-description > p{
+    line-height:0.5;
+}
+
+.work-experience--job-description p:last-child{
+    line-height: 1.5;
+}
+
+.job-description--job-title, .job-description--job-location{
+    font-size: small;
+}
