@@ -1,0 +1,94 @@
+:root{
+    --main-background-color:#203E6F;
+    --white-text: #FFFFFF;
+}
+
+@media only screen and (max-width:400px){
+    .about{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .about-image{
+        width:150px;
+    }
+
+    .about-text{
+        padding:5% 5%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        width: none;
+    }
+    
+    .details{
+        width: unset;
+    }
+
+    .details .contact{
+        display: none;
+    }
+
+    .details-m{
+        display: flex;
+    }
+
+    .contact-icon{
+        padding-right: 5px;
+    }
+
+    .details div > h3, h1{
+        text-align: center;
+    }
+    
+    .details--soft-skills ul li, .details--technical-skills ul li, .details--additional-skills ul li{
+        list-style: none;
+        padding: 5px 10px;
+    }
+    
+    .links > li a{
+        text-decoration: none;
+        color: var(--white-text);
+    }
+    
+    .contact > li{
+        list-style:none;
+    }
+    
+    .work-experience{
+        width: unset;
+    }
+    
+    .work-experience--header{
+        text-align: center;
+    }
+    
+    .work-experience--container{
+        display:flex;
+    }
+    
+    .work-experience--date{
+        padding-right: 5%;
+        width:20%;
+        text-align:unset;
+    }
+    
+    .work-experience--job-description{
+        width:80%;
+    }
+    
+    .work-experience--job-description > p{
+        line-height:unset;
+    }
+    
+    .work-experience--job-description p:last-child{
+        line-height: 1.5;
+    }
+    
+    .job-description--job-title, .job-description--job-location{
+        font-size: unset;
+    }
+}
