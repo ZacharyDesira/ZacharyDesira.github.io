@@ -3,6 +3,10 @@
     --white-text: #FFFFFF;
 }
 
+.links > li a:hover, .contact > li a:hover{
+    color:grey;
+}
+
 .about, .footer-container{
     max-width:2050px;
 }
@@ -40,6 +44,7 @@ header{
     object-fit: contain;
     width:300px;
     border-radius: 50%;
+    box-shadow: 0 0 28px grey
 }
 
 .about-text{
@@ -111,6 +116,12 @@ footer div > h1{
 
 .contact > li{
     list-style:none;
+
+}
+
+.contact > li a{
+    text-decoration: none;
+    color: var(--white-text);
 }
 
 .contact-icon{
