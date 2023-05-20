@@ -86,13 +86,13 @@ footer div > h1{
 }
 
 /* .details > ul > li */
-.details--soft-skills ul, .details--technical-skills ul, .details--additional-skills ul{
+.details--soft-skills ul, .details--technical-skills ul, .details--additional-skills ul, .details--monitoring-tools ul {
     display: flex;
-    flex-wrap:wrap;
-    padding:0;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
-.details--soft-skills ul li, .details--technical-skills ul li, .details--additional-skills ul li{
+.details--soft-skills ul li, .details--technical-skills ul li, .details--additional-skills ul li, .details--monitoring-tools ul li{
     list-style: none;
     padding: 5px 10px;
 }
